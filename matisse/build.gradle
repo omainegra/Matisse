@@ -19,6 +19,7 @@ apply plugin: 'checkstyle'
 
 android {
     compileSdkVersion versions.androidSdk
+    buildToolsVersion versions.buildTool
 
     defaultConfig {
         minSdkVersion 14
